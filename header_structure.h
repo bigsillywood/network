@@ -1,13 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
-#include <pcap.h>
-#include <time.h>
+
+#include<pcap.h>
+#include<sys/types.h>
+#include<sys/socket.h>
+#include<netinet/in.h>
 
 typedef __u_char u_char;
 typedef __u_int u_int;
